@@ -1,0 +1,17 @@
+{
+  "name": "vite-sandbox-hmr-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Demonstrates Vite HMR WebSocket through Cloudflare Sandbox preview URLs",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/sandbox": "^0.6.10",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.50.0"
+  },
+  "license": "MIT"
+}
